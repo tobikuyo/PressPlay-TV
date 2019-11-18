@@ -13,6 +13,19 @@
 		2C0E75AF237F82C300D6F65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75AD237F82C300D6F65B /* Main.storyboard */; };
 		2C0E75B1237F82C700D6F65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75B0237F82C700D6F65B /* Assets.xcassets */; };
 		2C0E75B4237F82C700D6F65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75B2237F82C700D6F65B /* LaunchScreen.storyboard */; };
+		2C53E32323831ADD005AE44C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */; };
+		2C53E32523831AE8005AE44C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */; };
+		2C53E32723831AF0005AE44C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */; };
+		2C53E32923831D04005AE44C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32823831D04005AE44C /* Montserrat-SemiBold.ttf */; };
+		2C53E32B23831D0E005AE44C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32A23831D0E005AE44C /* Montserrat-Medium.ttf */; };
+		2C53E32D23831F03005AE44C /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32C23831F03005AE44C /* Oswald-Bold.ttf */; };
+		2C53E32F23831F0A005AE44C /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32E23831F0A005AE44C /* Oswald-SemiBold.ttf */; };
+		2C53E33123831F10005AE44C /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33023831F0F005AE44C /* Oswald-Regular.ttf */; };
+		2C53E33323832228005AE44C /* Play-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33223832228005AE44C /* Play-Bold.ttf */; };
+		2C53E33523832289005AE44C /* Play-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33423832289005AE44C /* Play-Regular.ttf */; };
+		2C53E33C23832670005AE44C /* Muli-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */; };
+		2C53E33E2383269A005AE44C /* Caudex-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */; };
+		2C53E34123834D8D005AE44C /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53E34023834D8D005AE44C /* Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		2C0E75B0237F82C700D6F65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0E75B3237F82C700D6F65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0E75B5237F82C700D6F65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		2C53E32823831D04005AE44C /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		2C53E32A23831D0E005AE44C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		2C53E32C23831F03005AE44C /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		2C53E32E23831F0A005AE44C /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		2C53E33023831F0F005AE44C /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		2C53E33223832228005AE44C /* Play-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Bold.ttf"; sourceTree = "<group>"; };
+		2C53E33423832289005AE44C /* Play-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Play-Regular.ttf"; sourceTree = "<group>"; };
+		2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-Regular.ttf"; sourceTree = "<group>"; };
+		2C53E34023834D8D005AE44C /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +89,29 @@
 				2C0E75B0237F82C700D6F65B /* Assets.xcassets */,
 				2C0E75B2237F82C700D6F65B /* LaunchScreen.storyboard */,
 				2C0E75B5237F82C700D6F65B /* Info.plist */,
+				2C53E33F238348B6005AE44C /* Fonts */,
+				2C53E34023834D8D005AE44C /* Show.swift */,
 			);
 			path = PressPlay;
+			sourceTree = "<group>";
+		};
+		2C53E33F238348B6005AE44C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */,
+				2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */,
+				2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */,
+				2C53E32823831D04005AE44C /* Montserrat-SemiBold.ttf */,
+				2C53E32A23831D0E005AE44C /* Montserrat-Medium.ttf */,
+				2C53E32C23831F03005AE44C /* Oswald-Bold.ttf */,
+				2C53E32E23831F0A005AE44C /* Oswald-SemiBold.ttf */,
+				2C53E33023831F0F005AE44C /* Oswald-Regular.ttf */,
+				2C53E33223832228005AE44C /* Play-Bold.ttf */,
+				2C53E33423832289005AE44C /* Play-Regular.ttf */,
+				2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */,
+				2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +172,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C53E33123831F10005AE44C /* Oswald-Regular.ttf in Resources */,
+				2C53E33C23832670005AE44C /* Muli-VariableFont:wght.ttf in Resources */,
+				2C53E33E2383269A005AE44C /* Caudex-Regular.ttf in Resources */,
+				2C53E33323832228005AE44C /* Play-Bold.ttf in Resources */,
 				2C0E75B4237F82C700D6F65B /* LaunchScreen.storyboard in Resources */,
+				2C53E32F23831F0A005AE44C /* Oswald-SemiBold.ttf in Resources */,
 				2C0E75B1237F82C700D6F65B /* Assets.xcassets in Resources */,
 				2C0E75AF237F82C300D6F65B /* Main.storyboard in Resources */,
+				2C53E32923831D04005AE44C /* Montserrat-SemiBold.ttf in Resources */,
+				2C53E32723831AF0005AE44C /* Poppins-Regular.ttf in Resources */,
+				2C53E32D23831F03005AE44C /* Oswald-Bold.ttf in Resources */,
+				2C53E32323831ADD005AE44C /* Poppins-Bold.ttf in Resources */,
+				2C53E33523832289005AE44C /* Play-Regular.ttf in Resources */,
+				2C53E32B23831D0E005AE44C /* Montserrat-Medium.ttf in Resources */,
+				2C53E32523831AE8005AE44C /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +199,7 @@
 			files = (
 				2C0E75AC237F82C300D6F65B /* ViewController.swift in Sources */,
 				2C0E75A8237F82C300D6F65B /* AppDelegate.swift in Sources */,
+				2C53E34123834D8D005AE44C /* Show.swift in Sources */,
 				2C0E75AA237F82C300D6F65B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
