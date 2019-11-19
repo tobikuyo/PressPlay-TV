@@ -26,6 +26,8 @@
 		2C53E33C23832670005AE44C /* Muli-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */; };
 		2C53E33E2383269A005AE44C /* Caudex-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */; };
 		2C53E34123834D8D005AE44C /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53E34023834D8D005AE44C /* Show.swift */; };
+		2CF90BCD238458E900D4164F /* ShowsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF90BCC238458E900D4164F /* ShowsCollectionViewController.swift */; };
+		2CF90BCF2384593800D4164F /* ShowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF90BCE2384593800D4164F /* ShowsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-VariableFont:wght.ttf"; sourceTree = "<group>"; };
 		2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-Regular.ttf"; sourceTree = "<group>"; };
 		2C53E34023834D8D005AE44C /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		2CF90BCC238458E900D4164F /* ShowsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsCollectionViewController.swift; sourceTree = "<group>"; };
+		2CF90BCE2384593800D4164F /* ShowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				2C0E75B5237F82C700D6F65B /* Info.plist */,
 				2C53E33F238348B6005AE44C /* Fonts */,
 				2C53E34023834D8D005AE44C /* Show.swift */,
+				2CF90BCE2384593800D4164F /* ShowsController.swift */,
+				2CF90BCC238458E900D4164F /* ShowsCollectionViewController.swift */,
 			);
 			path = PressPlay;
 			sourceTree = "<group>";
@@ -197,9 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF90BCF2384593800D4164F /* ShowsController.swift in Sources */,
 				2C0E75AC237F82C300D6F65B /* ViewController.swift in Sources */,
 				2C0E75A8237F82C300D6F65B /* AppDelegate.swift in Sources */,
 				2C53E34123834D8D005AE44C /* Show.swift in Sources */,
+				2CF90BCD238458E900D4164F /* ShowsCollectionViewController.swift in Sources */,
 				2C0E75AA237F82C300D6F65B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
