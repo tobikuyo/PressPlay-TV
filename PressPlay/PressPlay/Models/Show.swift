@@ -13,11 +13,13 @@ class Show {
     var summary: String
     var genre: [String]
     var image: UIImage
+    var episodes: [String: [String]]
     
-    init(name: String, summary: String, genre: [String], imageName: String) {
+    init(name: String, summary: String, genre: [String], imageName: String, episodes: [String: [String]]) {
         self.name = name
         self.summary = summary
         self.genre = genre
         self.image = UIImage(named: imageName)!
+        self.episodes = episodes
     }
 }

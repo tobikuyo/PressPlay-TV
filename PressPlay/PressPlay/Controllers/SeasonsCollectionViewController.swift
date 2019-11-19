@@ -1,5 +1,5 @@
 //
-//  ShowsCollectionViewController.swift
+//  SeasonsCollectionViewController.swift
 //  PressPlay
 //
 //  Created by Tobi Kuyoro on 19/11/2019.
@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ShowsCollectionViewController: UICollectionViewController {
+private let reuseIdentifier = "Cell"
+
+class SeasonsCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Register cell classes
+        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+
+        // Do any additional setup after loading the view.
     }
 
     /*
@@ -29,7 +38,7 @@ class ShowsCollectionViewController: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
 
