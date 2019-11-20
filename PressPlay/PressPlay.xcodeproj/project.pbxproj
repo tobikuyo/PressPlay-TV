@@ -14,6 +14,7 @@
 		2C0E75B4237F82C700D6F65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75B2237F82C700D6F65B /* LaunchScreen.storyboard */; };
 		2C4BEF112384C5900064E284 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BEF102384C5900064E284 /* Season.swift */; };
 		2C4BEF132384C6210064E284 /* SeasonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BEF122384C6210064E284 /* SeasonsController.swift */; };
+		2C4BEF372385AA8A0064E284 /* EpisodesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BEF362385AA8A0064E284 /* EpisodesController.swift */; };
 		2C53E32323831ADD005AE44C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */; };
 		2C53E32523831AE8005AE44C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */; };
 		2C53E32723831AF0005AE44C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */; };
@@ -44,6 +45,7 @@
 		2C0E75B5237F82C700D6F65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4BEF102384C5900064E284 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		2C4BEF122384C6210064E284 /* SeasonsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsController.swift; sourceTree = "<group>"; };
+		2C4BEF362385AA8A0064E284 /* EpisodesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesController.swift; sourceTree = "<group>"; };
 		2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				2C53E34023834D8D005AE44C /* Show.swift */,
 				2CF90BCE2384593800D4164F /* ShowsController.swift */,
+				2C4BEF362385AA8A0064E284 /* EpisodesController.swift */,
 				2C4BEF102384C5900064E284 /* Season.swift */,
 				2C4BEF122384C6210064E284 /* SeasonsController.swift */,
 			);
@@ -251,6 +254,7 @@
 				2CA15AEB238488C4000CE54B /* SeasonsCollectionViewController.swift in Sources */,
 				2C4BEF112384C5900064E284 /* Season.swift in Sources */,
 				2CA15AE723848657000CE54B /* ShowsCollectionViewCell.swift in Sources */,
+				2C4BEF372385AA8A0064E284 /* EpisodesController.swift in Sources */,
 				2C0E75A8237F82C300D6F65B /* AppDelegate.swift in Sources */,
 				2C53E34123834D8D005AE44C /* Show.swift in Sources */,
 				2C4BEF132384C6210064E284 /* SeasonsController.swift in Sources */,
