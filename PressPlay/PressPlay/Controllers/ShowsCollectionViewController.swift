@@ -29,10 +29,10 @@ class ShowsCollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }
+//    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 1
+//    }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -52,9 +52,10 @@ class ShowsCollectionViewController: UICollectionViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowDetail" {
             guard let indexPath = collectionView.indexPathsForSelectedItems?.first?.item,
-                let seasonVC = segue.destination as? DetailViewController else { return }
+                let detailVC = segue.destination as? DetailViewController else { return }
             
-            let selectedSeason = showsController.shows[indexPath]
+            let selectedShow = showsController.shows[indexPath]
+            detailVC.show = selectedShow
             
         }
     }

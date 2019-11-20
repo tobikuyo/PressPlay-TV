@@ -24,14 +24,15 @@ class DetailViewController: UIViewController {
         }
     }
     
-    @IBAction func viewEpisodesPressed(_ sender: Any) {
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         updateViews()
+    }
+    
+    @IBAction func viewEpisodesPressed(_ sender: Any) {
+           performSegue(withIdentifier: "showSeasons", sender: self)
+       }
     }
     
     
@@ -48,4 +49,4 @@ class DetailViewController: UIViewController {
     }
     */
 
-}
+

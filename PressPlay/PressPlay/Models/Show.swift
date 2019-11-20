@@ -11,11 +11,12 @@ import UIKit
 class Show {
     var name: String
     var summary: String
-    var genre: [String]
+    var genre: String
     var image: UIImage
-    var episodes: [String: [String]]
+    var episodes: [String]
+    var hasBeenSeen: Bool = false
     
-    init(name: String, summary: String, genre: [String], imageName: String, episodes: [String: [String]]) {
+    init(name: String, summary: String, genre: String, imageName: String, episodes: [String]) {
         self.name = name
         self.summary = summary
         self.genre = genre
