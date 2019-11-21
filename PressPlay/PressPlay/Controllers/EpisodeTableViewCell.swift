@@ -21,9 +21,11 @@ class EpisodeTableViewCell: UITableViewCell {
         if showEpisode.hasBeenSeen == false {
             hasBeenSeenButton.setTitle("Seen", for: .normal)
             showEpisode.hasBeenSeen = true
+            updateViews()
         } else {
             hasBeenSeenButton.setTitle("Not Seen", for: .normal)
             showEpisode.hasBeenSeen = false
+            updateViews()
         }
     }
     
@@ -50,6 +52,5 @@ class EpisodeTableViewCell: UITableViewCell {
         
         hasBeenSeenButton.setTitle(buttonText, for: .normal
         )
-    
     }
 }
