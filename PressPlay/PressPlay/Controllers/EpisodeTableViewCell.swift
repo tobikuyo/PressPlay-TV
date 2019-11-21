@@ -16,31 +16,40 @@ class EpisodeTableViewCell: UITableViewCell {
     
     
     @IBAction func hasBeenSeenPressed(_ sender: UIButton) {
-        if clickCounter % 2 == 0 {
+        guard let showEpisode = showEpisode else { return }
+        
+        if showEpisode.hasBeenSeen == false {
             hasBeenSeenButton.setTitle("Seen", for: .normal)
-            showEpisode?.shows.first?.hasBeenSeen = true
-            clickCounter += 1
+            showEpisode.hasBeenSeen = true
         } else {
             hasBeenSeenButton.setTitle("Not Seen", for: .normal)
-            clickCounter += 1
+            showEpisode.hasBeenSeen = false
         }
     }
     
     var clickCounter = 0
     
-    var showEpisode: ShowsController? {
+    var showEpisode: Episode? {
         didSet {
             updateViews()
         }
     }
     
     func updateViews() {
-        guard let showEpisode = showEpisode?.shows.first?.episodes else { return }
+        guard let showEpisode = showEpisode else { return }
         
-        for _ in showEpisode {
-            var index = 0
-            episodeLabel.text = showEpisode[index]
-            index += 1
+        episodeLabel.text = showEpisode.title
+        
+        var buttonText: String
+        
+        if showEpisode.hasBeenSeen == true {
+            buttonText = "Seen"
+        } else {
+            buttonText = "Not Seen"
         }
+        
+        hasBeenSeenButton.setTitle(buttonText, for: .normal
+        )
+    
     }
 }

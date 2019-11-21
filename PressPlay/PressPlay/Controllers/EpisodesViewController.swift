@@ -36,14 +36,14 @@ class EpisodesViewController: UIViewController {
     
 extension EpisodesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        episodesController?.shows[section].episodes.count ?? 10
+        show?.episodes.count ?? 0
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "EpisodeCell", for: indexPath) as? EpisodeTableViewCell else { return UITableViewCell() }
         
-        let episode = episodesController?.shows
+        let episode = show?.episodes[indexPath.row]
         cell.showEpisode = episode
         
         return cell

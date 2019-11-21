@@ -13,10 +13,9 @@ class Show {
     var summary: String
     var genre: String
     var image: UIImage
-    var episodes: [String]
-    var hasBeenSeen: Bool = false
+    var episodes: [Episode]
     
-    init(name: String, summary: String, genre: String, imageName: String, episodes: [String]) {
+    init(name: String, summary: String, genre: String, imageName: String, episodes: [Episode]) {
         self.name = name
         self.summary = summary
         self.genre = genre
@@ -24,3 +23,5 @@ class Show {
         self.episodes = episodes
     }
 }
+
+
