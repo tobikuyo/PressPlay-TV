@@ -12,16 +12,27 @@ class EpisodesViewController: UIViewController {
     
     var episodesController: ShowsController?
     var show: Show?
+    var episode: Episode?
 
     @IBOutlet weak var showImage: UIImageView!
-    @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var episodesLeft: UILabel!
     @IBOutlet weak var tableview: UITableView!
+    
     
     func updateViews() {
         if let show = show {
             showImage.image = show.image
-            episodesLeft.text = "of episodes left"
+        }
+        
+        if let episode = episode {
+            var episodesWatched = 0
+            
+            if episode.hasBeenSeen == true {
+                episodesWatched += 1
+            }
+            let episodesLeftString = (show?.episodes.count ?? 0) - episodesWatched
+            
+            episodesLeft.text = "\(episodesLeftString) EPISODES LEFT TO CATCH UP"
         }
     }
     
