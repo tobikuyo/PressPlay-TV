@@ -12,9 +12,6 @@
 		2C0E75AF237F82C300D6F65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75AD237F82C300D6F65B /* Main.storyboard */; };
 		2C0E75B1237F82C700D6F65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75B0237F82C700D6F65B /* Assets.xcassets */; };
 		2C0E75B4237F82C700D6F65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E75B2237F82C700D6F65B /* LaunchScreen.storyboard */; };
-		2C4BEF112384C5900064E284 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BEF102384C5900064E284 /* Season.swift */; };
-		2C4BEF132384C6210064E284 /* SeasonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BEF122384C6210064E284 /* SeasonsController.swift */; };
-		2C4BEF372385AA8A0064E284 /* EpisodesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BEF362385AA8A0064E284 /* EpisodesController.swift */; };
 		2C53E32323831ADD005AE44C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */; };
 		2C53E32523831AE8005AE44C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */; };
 		2C53E32723831AF0005AE44C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */; };
@@ -28,9 +25,10 @@
 		2C53E33C23832670005AE44C /* Muli-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */; };
 		2C53E33E2383269A005AE44C /* Caudex-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */; };
 		2C53E34123834D8D005AE44C /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53E34023834D8D005AE44C /* Show.swift */; };
+		2C6384612385B88400A1EF1B /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6384602385B88400A1EF1B /* EpisodesViewController.swift */; };
+		2C6384632385BF1800A1EF1B /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6384622385BF1800A1EF1B /* EpisodeTableViewCell.swift */; };
 		2CA15AE523848554000CE54B /* ShowsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA15AE423848554000CE54B /* ShowsCollectionViewController.swift */; };
 		2CA15AE723848657000CE54B /* ShowsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA15AE623848657000CE54B /* ShowsCollectionViewCell.swift */; };
-		2CA15AEB238488C4000CE54B /* SeasonsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA15AEA238488C4000CE54B /* SeasonsCollectionViewController.swift */; };
 		2CA15AED23848BC9000CE54B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA15AEC23848BC9000CE54B /* DetailViewController.swift */; };
 		2CF90BCF2384593800D4164F /* ShowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF90BCE2384593800D4164F /* ShowsController.swift */; };
 /* End PBXBuildFile section */
@@ -43,9 +41,6 @@
 		2C0E75B0237F82C700D6F65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0E75B3237F82C700D6F65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0E75B5237F82C700D6F65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C4BEF102384C5900064E284 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
-		2C4BEF122384C6210064E284 /* SeasonsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsController.swift; sourceTree = "<group>"; };
-		2C4BEF362385AA8A0064E284 /* EpisodesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesController.swift; sourceTree = "<group>"; };
 		2C53E32223831ADD005AE44C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		2C53E32423831AE8005AE44C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		2C53E32623831AF0005AE44C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -59,9 +54,10 @@
 		2C53E33B23832670005AE44C /* Muli-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-VariableFont:wght.ttf"; sourceTree = "<group>"; };
 		2C53E33D2383269A005AE44C /* Caudex-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caudex-Regular.ttf"; sourceTree = "<group>"; };
 		2C53E34023834D8D005AE44C /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		2C6384602385B88400A1EF1B /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		2C6384622385BF1800A1EF1B /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
 		2CA15AE423848554000CE54B /* ShowsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsCollectionViewController.swift; sourceTree = "<group>"; };
 		2CA15AE623848657000CE54B /* ShowsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsCollectionViewCell.swift; sourceTree = "<group>"; };
-		2CA15AEA238488C4000CE54B /* SeasonsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsCollectionViewController.swift; sourceTree = "<group>"; };
 		2CA15AEC23848BC9000CE54B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2CF90BCE2384593800D4164F /* ShowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,8 +126,9 @@
 			children = (
 				2CA15AE423848554000CE54B /* ShowsCollectionViewController.swift */,
 				2CA15AE623848657000CE54B /* ShowsCollectionViewCell.swift */,
-				2CA15AEA238488C4000CE54B /* SeasonsCollectionViewController.swift */,
 				2CA15AEC23848BC9000CE54B /* DetailViewController.swift */,
+				2C6384602385B88400A1EF1B /* EpisodesViewController.swift */,
+				2C6384622385BF1800A1EF1B /* EpisodeTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -141,9 +138,6 @@
 			children = (
 				2C53E34023834D8D005AE44C /* Show.swift */,
 				2CF90BCE2384593800D4164F /* ShowsController.swift */,
-				2C4BEF362385AA8A0064E284 /* EpisodesController.swift */,
-				2C4BEF102384C5900064E284 /* Season.swift */,
-				2C4BEF122384C6210064E284 /* SeasonsController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -250,14 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6384632385BF1800A1EF1B /* EpisodeTableViewCell.swift in Sources */,
 				2CF90BCF2384593800D4164F /* ShowsController.swift in Sources */,
-				2CA15AEB238488C4000CE54B /* SeasonsCollectionViewController.swift in Sources */,
-				2C4BEF112384C5900064E284 /* Season.swift in Sources */,
 				2CA15AE723848657000CE54B /* ShowsCollectionViewCell.swift in Sources */,
-				2C4BEF372385AA8A0064E284 /* EpisodesController.swift in Sources */,
+				2C6384612385B88400A1EF1B /* EpisodesViewController.swift in Sources */,
 				2C0E75A8237F82C300D6F65B /* AppDelegate.swift in Sources */,
 				2C53E34123834D8D005AE44C /* Show.swift in Sources */,
-				2C4BEF132384C6210064E284 /* SeasonsController.swift in Sources */,
 				2CA15AE523848554000CE54B /* ShowsCollectionViewController.swift in Sources */,
 				2C0E75AA237F82C300D6F65B /* SceneDelegate.swift in Sources */,
 				2CA15AED23848BC9000CE54B /* DetailViewController.swift in Sources */,

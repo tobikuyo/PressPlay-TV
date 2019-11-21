@@ -31,7 +31,7 @@ class DetailViewController: UIViewController {
     }
     
     @IBAction func viewEpisodesPressed(_ sender: Any) {
-           performSegue(withIdentifier: "showSeasons", sender: self)
+           performSegue(withIdentifier: "showEpisodes", sender: self)
        }
     }
     
