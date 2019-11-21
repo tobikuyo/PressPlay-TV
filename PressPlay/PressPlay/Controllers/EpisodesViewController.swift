@@ -24,31 +24,41 @@ class EpisodesViewController: UIViewController {
             showImage.image = show.image
         }
         
-        if let episodes = show?.episodes {
-            var episodesWatched = 0
-            
-            for episode in episodes {
-                if episode.hasBeenSeen == true {
-                    episodesWatched += 1
-                }
-            }
-            
-            guard let episodesLeftInt = show?.episodes.count else { return }
-            
-            episodesLeft.text = "\(String(describing: episodesLeftInt)) EPISODES LEFT TO CATCH UP"
-        }
+        guard let totalEpisodes = show?.episodes.count else { return }
+        episodesLeft.text = "\(totalEpisodes) EPISODES LEFT TO CATCH UP"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         updateViews()
+        hasBeenPressed(self)
         
         tableview.dataSource = self
     }
+    
+    
+    @IBAction func hasBeenPressed(_ sender: Any) {
+        
+    }
+    
 }
 
-extension EpisodesViewController: UITableViewDataSource {
+extension EpisodesViewController: UITableViewDataSource, EpisodeDelegate {
+    func updatedEpisode() {
+        if let episodes = show?.episodes {
+            var totalEpisodes = show?.episodes.count ?? 0
+            
+            for episode in episodes {
+                if episode.hasBeenSeen == true {
+                    totalEpisodes -= 1
+                }
+            }
+            
+            episodesLeft.text = "\(String(totalEpisodes)) EPISODES LEFT TO CATCH UP"
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         show?.episodes.count ?? 0
         
@@ -59,6 +69,7 @@ extension EpisodesViewController: UITableViewDataSource {
         
         let episode = show?.episodes[indexPath.row]
         cell.showEpisode = episode
+        cell.delegate = self
         
         return cell
     }

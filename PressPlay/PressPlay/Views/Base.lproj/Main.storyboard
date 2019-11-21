@@ -338,6 +338,7 @@
                                                     <fontDescription key="fontDescription" name="Play" family="Play" pointSize="18"/>
                                                     <state key="normal" title="Not Seen"/>
                                                     <connections>
+                                                        <action selector="hasBeenPressed:" destination="XeB-h8-VkW" eventType="touchUpInside" id="NSv-I6-jm8"/>
                                                         <action selector="hasBeenSeenPressed:" destination="FJf-2W-YFu" eventType="touchUpInside" id="uE4-yf-loq"/>
                                                     </connections>
                                                 </button>

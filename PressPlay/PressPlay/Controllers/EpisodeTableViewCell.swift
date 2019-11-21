@@ -8,7 +8,13 @@
 
 import UIKit
 
+protocol EpisodeDelegate {
+    func updatedEpisode()
+}
+
 class EpisodeTableViewCell: UITableViewCell {
+    
+    var delegate: EpisodeDelegate?
     
     @IBOutlet weak var episodeLabel: UILabel!
     @IBOutlet weak var hasBeenSeenButton: UIButton!
@@ -22,10 +28,12 @@ class EpisodeTableViewCell: UITableViewCell {
             hasBeenSeenButton.setTitle("Seen", for: .normal)
             showEpisode.hasBeenSeen = true
             updateViews()
+            delegate?.updatedEpisode()
         } else {
             hasBeenSeenButton.setTitle("Not Seen", for: .normal)
             showEpisode.hasBeenSeen = false
             updateViews()
+            delegate?.updatedEpisode()
         }
     }
     
