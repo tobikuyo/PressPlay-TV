@@ -19,8 +19,6 @@ class EpisodeTableViewCell: UITableViewCell {
     @IBOutlet weak var episodeLabel: UILabel!
     @IBOutlet weak var hasBeenSeenButton: UIButton!
     
-    
-    
     @IBAction func hasBeenSeenPressed(_ sender: UIButton) {
         guard let showEpisode = showEpisode else { return }
         
@@ -36,9 +34,7 @@ class EpisodeTableViewCell: UITableViewCell {
             delegate?.updatedEpisode()
         }
     }
-    
-    var clickCounter = 0
-    
+
     var showEpisode: Episode? {
         didSet {
             updateViews()
